@@ -24,7 +24,7 @@ Movie.propTypes = {
     id : PropTypes.number.isRequired,
     coverImg : PropTypes.string.isRequired,
     title : PropTypes.string.isRequired,
-    year : PropTypes.string.isRequired,
+    year : PropTypes.number.isRequired,
     summary : PropTypes.string.isRequired,
     genres : PropTypes.arrayOf(PropTypes.string).isRequired
 }

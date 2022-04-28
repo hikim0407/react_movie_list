@@ -1,0 +1,49 @@
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.loader {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+}
+
+.movie {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.movie__img__div {
+    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+}
+
+.movie__img {
+    padding: 20px;
+    top: -50px;
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+}
+
+.movie__info__div {
+    padding: 20px;
+}
+
+.go__home {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.arrow {
+    width: 50px;
+    height: 50px;
+    opacity: 0.3;
+}
