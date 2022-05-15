@@ -40,7 +40,7 @@ function Detail() {
                         <ul>
                             {movie.genres.map(g => (<li key={g}>{g}</li>))}
                         </ul>
-                        <p>{movie.summary}</p>
+                        <p>{movie.description_intro}</p>
                     </div>
                     <span className={styles.go__home}>
                         <Link to="/">
